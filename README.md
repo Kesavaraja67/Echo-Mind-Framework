@@ -48,9 +48,10 @@ Open the .env file and add your API keys.
 GEMINI_API_KEY="your-gemini-api-key"
 FIREBASE_SERVICE_ACCOUNT_KEY="path/to/your-firebase-key.json"
 ```
-4. Run the Server
-```
+### 4. Run the Server
 Start the FastAPI server from the project's root folder.
-```uvicorn server:app --reload
-6. Open the Application
+```
+uvicorn server:app --reload
+```
+### 6. Open the Application
 Navigate to http://127.0.0.1:8000 in your web browser to start chatting with your Memory Agent!
